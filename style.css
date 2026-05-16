@@ -1,0 +1,60 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+.dark {
+  background: #121212;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.card {
+  flex: 1;
+  padding: 15px;
+  background: #4CAF50;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.controls, .filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  padding: 8px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dark li {
+  background: #1e1e1e;
+}
